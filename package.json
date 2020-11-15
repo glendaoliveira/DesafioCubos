@@ -1,0 +1,22 @@
+{
+  "name": "testecubos",
+  "version": "1.0.0",
+  "description": "vaga cubos",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^5.6.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:chrome": "cypress run --browser chrome --no-exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  }
+}
